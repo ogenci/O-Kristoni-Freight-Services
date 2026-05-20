@@ -57,7 +57,7 @@ export function Footer() {
           </div>
 
           {/* Hubs Column */}
-          <div className="lg:col-span-3 lg:col-start-7">
+          <div className="lg:col-span-2 lg:col-start-7">
             <h3 className="mb-6 text-sm font-semibold uppercase tracking-[0.15em] text-on-media">
               Our Hubs
             </h3>
@@ -74,7 +74,7 @@ export function Footer() {
           </div>
 
           {/* Contact Column */}
-          <div className="lg:col-span-4">
+          <div className="lg:col-span-4 lg:col-start-9">
             <h3 className="mb-6 text-sm font-semibold uppercase tracking-[0.15em] text-on-media">
               Contact Us
             </h3>

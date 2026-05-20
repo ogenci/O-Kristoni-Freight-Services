@@ -43,13 +43,17 @@ export function FAQ() {
           </h2>
         </Reveal>
         <Reveal delay={0.15} className="mt-12">
-          <Accordion type="single" collapsible className="w-full">
+          <Accordion type="single" collapsible className="w-full space-y-4">
             {faqs.map((f, i) => (
-              <AccordionItem key={i} value={`item-${i}`} className="border-border">
-                <AccordionTrigger className="py-6 text-left text-lg text-foreground hover:no-underline">
+              <AccordionItem 
+                key={i} 
+                value={`item-${i}`} 
+                className="rounded-2xl border border-border/40 bg-background/40 backdrop-blur-sm px-6 transition-all duration-500 hover:border-primary/30 hover:bg-background/80 hover:shadow-[0_8px_30px_rgb(0,0,0,0.04)] data-[state=open]:border-primary/30 data-[state=open]:bg-background/80 data-[state=open]:shadow-[0_8px_30px_rgb(0,0,0,0.08)]"
+              >
+                <AccordionTrigger className="py-6 text-left text-lg font-medium text-foreground hover:no-underline">
                   {f.q}
                 </AccordionTrigger>
-                <AccordionContent className="text-pretty text-base text-muted-foreground">
+                <AccordionContent className="text-pretty text-base leading-relaxed text-muted-foreground pb-6">
                   {f.a}
                 </AccordionContent>
               </AccordionItem>
