@@ -12,7 +12,7 @@ export function StickyMobileCTA() {
 
   return (
     <div
-      className={`fixed inset-x-3 bottom-3 z-50 md:hidden transition-all duration-500 ${
+      className={`sticky-mobile-cta fixed inset-x-3 bottom-3 z-50 md:hidden transition-all duration-500 ${
         show ? "translate-y-0 opacity-100" : "translate-y-24 opacity-0 pointer-events-none"
       }`}
     >

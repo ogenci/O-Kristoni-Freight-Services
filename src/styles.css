@@ -131,4 +131,10 @@
     .marquee { animation: none; }
     html { scroll-behavior: auto; }
   }
+
+  body.has-mobile-menu-open .sticky-mobile-cta {
+    opacity: 0 !important;
+    pointer-events: none !important;
+    transform: translateY(100px) !important;
+  }
 }
