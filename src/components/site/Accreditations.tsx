@@ -5,12 +5,12 @@ const items = [
   {
     icon: Landmark,
     title: "GRA-licensed customs house agent",
-    body: "Authorized to clear under the Ghana Revenue Authority customs framework — your declarations are filed correctly the first time.",
+    body: "Authorized to clear under the Ghana Revenue Authority customs framework - your declarations are filed correctly the first time.",
   },
   {
     icon: ShieldCheck,
     title: "GIFF member",
-    body: "Operating under the Ghana Institute of Freight Forwarders code of conduct — accountability, ethics, and professional standards.",
+    body: "Operating under the Ghana Institute of Freight Forwarders code of conduct - accountability, ethics, and professional standards.",
   },
   {
     icon: FileCheck2,

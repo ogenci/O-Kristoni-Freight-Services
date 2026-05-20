@@ -72,7 +72,7 @@ export function FinalCTA() {
             <Reveal delay={0.15}>
               <p className="mt-8 max-w-xl text-pretty text-lg text-muted-foreground">
                 No call-back chasing. No vague "around $X". Just the real number you'll pay at the
-                port — verified against the GRA tariff before your goods move.
+                port - verified against the GRA tariff before your goods move.
               </p>
             </Reveal>
             <Reveal delay={0.25}>
@@ -164,7 +164,7 @@ export function FinalCTA() {
                 className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-medium text-primary-foreground transition-all hover:scale-[1.01] disabled:opacity-70"
               >
                 {sent ? (
-                  <><CheckCircle2 className="h-4 w-4" /> Sent — check WhatsApp</>
+                  <><CheckCircle2 className="h-4 w-4" /> Sent - check WhatsApp</>
                 ) : submitting ? (
                   <><Loader2 className="h-4 w-4 animate-spin" /> Sending…</>
                 ) : (

@@ -9,7 +9,7 @@ import {
 const faqs = [
   {
     q: "How do you avoid surprise duties at Tema?",
-    a: "We verify your HS code and product description against the GRA tariff book before your goods leave the origin port. The number we quote is the number you pay — no last-minute reclassification at clearance.",
+    a: "We verify your HS code and product description against the GRA tariff book before your goods leave the origin port. The number we quote is the number you pay - no last-minute reclassification at clearance.",
   },
   {
     q: "What's the typical transit time?",
@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "What happens if my goods are damaged or missing?",
-    a: "Every shipment moves through bonded warehousing and is sealed at origin. We carry standard freight insurance and can arrange all-risk cover on request — claims handled directly by our team.",
+    a: "Every shipment moves through bonded warehousing and is sealed at origin. We carry standard freight insurance and can arrange all-risk cover on request - claims handled directly by our team.",
   },
   {
     q: "Is there a minimum shipment size?",
@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "How do payments and clearance work?",
-    a: "50% on booking, balance before release. We invoice in GHS or USD. Duties and levies are paid on your behalf at the port and itemised on the final invoice — no markup.",
+    a: "50% on booking, balance before release. We invoice in GHS or USD. Duties and levies are paid on your behalf at the port and itemised on the final invoice - no markup.",
   },
 ];
 

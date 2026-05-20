@@ -5,7 +5,7 @@ const promises = [
   {
     icon: Clock,
     title: "Quote in 1 hour",
-    body: "Send your invoice. We respond with a verified landed cost the same business hour — or your next shipment's clearing fee is on us.",
+    body: "Send your invoice. We respond with a verified landed cost the same business hour - or your next shipment's clearing fee is on us.",
   },
   {
     icon: Wallet,
@@ -15,7 +15,7 @@ const promises = [
   {
     icon: ShieldCheck,
     title: "Cargo-care promise",
-    body: "Fully insured movement, bonded warehousing, and real-time updates. If we miss a milestone, you hear it from us first — not the port.",
+    body: "Fully insured movement, bonded warehousing, and real-time updates. If we miss a milestone, you hear it from us first - not the port.",
   },
 ];
 
@@ -45,7 +45,7 @@ export function Guarantee() {
           <Reveal delay={0.2}>
             <p className="mt-6 text-pretty text-on-media/70">
               No fine print. No "depending on the season." This is what every Kristoni
-              shipment includes — by default.
+              shipment includes - by default.
             </p>
           </Reveal>
         </div>

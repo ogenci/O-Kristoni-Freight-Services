@@ -23,7 +23,7 @@ export function DutyBreakdown() {
           </Reveal>
           <Reveal delay={0.15}>
             <p className="mt-6 max-w-md text-pretty text-muted-foreground">
-              Here's a real Ghana import on a CIF value of GHS 10,000 — say, a shipment of pasta.
+              Here's a real Ghana import on a CIF value of GHS 10,000 - say, a shipment of pasta.
               The wrong word on your invoice can swing duty from 5% to 20%. We check it before
               your goods leave port.
             </p>

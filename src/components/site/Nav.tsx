@@ -34,7 +34,11 @@ export function Nav() {
               O
             </span>
             <span className="hidden sm:flex flex-col leading-none">
-              <span className="font-display text-lg">O'Kristoni</span>
+              <span className="font-display text-lg uppercase flex justify-between w-full">
+                {"O'KRISTONI".split("").map((char, i) => (
+                  <span key={i}>{char}</span>
+                ))}
+              </span>
               <span
                 className={`text-[10px] uppercase tracking-[0.22em] ${
                   scrolled ? "text-muted-foreground" : "text-on-media/70"
@@ -46,7 +50,7 @@ export function Nav() {
           </a>
 
           <nav
-            className={`hidden lg:flex items-center gap-7 text-sm ${
+            className={`hidden lg:flex items-center gap-2 text-sm ${
               scrolled ? "text-muted-foreground" : "text-on-media/85"
             }`}
           >
@@ -54,7 +58,7 @@ export function Nav() {
               <a
                 key={l.label}
                 href={l.href}
-                className="relative transition-colors hover:text-primary after:absolute after:left-0 after:-bottom-1 after:h-px after:w-0 after:bg-primary after:transition-all hover:after:w-full"
+                className="relative px-3 py-3 rounded-md uppercase tracking-widest text-xs font-semibold transition-all duration-300 hover:bg-primary/10 hover:text-primary"
               >
                 {l.label}
               </a>

@@ -19,7 +19,7 @@ import { Guarantee } from "@/components/site/Guarantee";
 import { Footer } from "@/components/site/Footer";
 import { StickyMobileCTA } from "@/components/site/StickyMobileCTA";
 
-const TITLE = "O Kristoni Freight Services — Shipping & Customs Clearing into Ghana";
+const TITLE = "O Kristoni Freight Services - Shipping & Customs Clearing into Ghana";
 const DESCRIPTION =
   "International freight forwarders into Ghana. Sea & air from 9+ origin countries, expert customs clearing, bonded warehousing, and transparent landed-cost pricing. WhatsApp +233 27 814 5334.";
 

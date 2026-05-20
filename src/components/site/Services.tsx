@@ -28,7 +28,7 @@ const services = [
     icon: FileCheck2,
     title: "Customs Clearance",
     tag: "GRA licensed",
-    body: "HS classification, CIF, duty, VAT, NHIL, GETFund, COVID Levy — we do the math and pay the right number.",
+    body: "HS classification, CIF, duty, VAT, NHIL, GETFund, COVID Levy - we do the math and pay the right number.",
     image: customs,
     alt: "Customs clearance documents stamped on a dark desk with a calculator",
   },
@@ -44,7 +44,7 @@ const services = [
     icon: Truck,
     title: "Door-to-Door Delivery",
     tag: "Nationwide",
-    body: "From the port to your warehouse, shop or site — Accra, Tema, Kumasi, Takoradi, Aflao, Elubo.",
+    body: "From the port to your warehouse, shop or site - Accra, Tema, Kumasi, Takoradi, Aflao, Elubo.",
     image: trucking,
     alt: "Heavy duty container truck driving on a Ghana highway at golden hour",
   },
@@ -52,7 +52,7 @@ const services = [
     icon: Container,
     title: "Project & Heavy Cargo",
     tag: "Out-of-gauge",
-    body: "Oversized, breakbulk and project cargo. Flatbeds, low-loaders, and crane coordination — handled.",
+    body: "Oversized, breakbulk and project cargo. Flatbeds, low-loaders, and crane coordination - handled.",
     image: projectCargo,
     alt: "Oversized industrial machinery being loaded onto a flatbed at a port at dusk",
   },
@@ -72,7 +72,7 @@ export function Services() {
         </Reveal>
         <Reveal delay={0.1}>
           <p className="mt-6 max-w-2xl text-lg text-muted-foreground">
-            Six end-to-end services under one roof — so your cargo never gets handed off, dropped, or lost in translation.
+            Six end-to-end services under one roof - so your cargo never gets handed off, dropped, or lost in translation.
           </p>
         </Reveal>
 

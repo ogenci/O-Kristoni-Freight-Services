@@ -36,7 +36,7 @@ export function Partners() {
           <Reveal delay={0.2} className="lg:col-span-6">
             <p className="text-pretty text-muted-foreground">
               Direct booking relationships with global ocean carriers, IATA airlines, and Ghana
-              port operators — so your container gets a slot when others get waitlisted.
+              port operators - so your container gets a slot when others get waitlisted.
             </p>
           </Reveal>
         </div>
@@ -46,9 +46,10 @@ export function Partners() {
             {partners.map((p) => (
               <li
                 key={p}
-                className="flex items-center justify-center bg-card px-4 py-8 transition-colors hover:bg-accent"
+                className="group relative flex items-center justify-center bg-card px-4 py-8 transition-all duration-500 hover:bg-primary/5 hover:shadow-[inset_0_1px_0_0_rgba(255,255,255,0.05)] overflow-hidden"
               >
-                <span className="font-display text-xl text-muted-foreground transition-colors hover:text-foreground">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                <span className="relative z-10 font-display text-xl text-muted-foreground transition-all duration-500 group-hover:scale-110 group-hover:text-primary group-hover:font-medium">
                   {p}
                 </span>
               </li>

@@ -56,7 +56,7 @@ export function Hero() {
           transition={{ duration: 1, delay: 0.35, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-5xl text-balance text-5xl leading-[0.95] tracking-tight sm:text-6xl lg:text-[5.5rem]"
         >
-          Your cargo lands in Ghana —{" "}
+          Your cargo lands in Ghana -{" "}
           <em className="not-italic text-primary">cleared, costed,</em> and on time.
         </motion.h1>
 
@@ -66,7 +66,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.55 }}
           className="mt-6 max-w-2xl text-pretty text-lg text-on-media/80 sm:text-xl"
         >
-          Surprise duties, port delays, lost containers — gone. We handle sea & air freight from
+          Surprise duties, port delays, lost containers - gone. We handle sea & air freight from
           9+ origin countries into Tema, Accra, Takoradi, Aflao and Elubo with transparent pricing
           and expert customs clearing.
         </motion.p>

@@ -3,7 +3,7 @@ import { Reveal } from "./Reveal";
 const pains = [
   {
     title: "Surprise duties",
-    body: "GRA hits you with duty rates you were never quoted — and the bill doubles overnight.",
+    body: "GRA hits you with duty rates you were never quoted - and the bill doubles overnight.",
   },
   {
     title: "Demurrage drain",
@@ -15,14 +15,14 @@ const pains = [
   },
   {
     title: "Hidden middlemen",
-    body: "Three sub-agents take a cut before your cargo even clears — and you pay for all of them.",
+    body: "Three sub-agents take a cut before your cargo even clears - and you pay for all of them.",
   },
 ];
 
 export function Pain() {
   return (
     <section className="py-24 sm:py-32">
-      <div className="mx-auto max-w-5xl px-6 text-center lg:px-10">
+      <div className="mx-auto max-w-[80rem] px-6 text-center lg:px-10">
         <Reveal>
           <p className="mb-6 text-xs uppercase tracking-[0.3em] text-primary">
             The real cost of shipping into Ghana
@@ -40,7 +40,7 @@ export function Pain() {
             The number you actually pay is something else entirely.
           </p>
         </Reveal>
-        <ul className="mx-auto mt-16 grid max-w-6xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="mx-auto mt-16 grid max-w-[80rem] gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {pains.map((p, i) => (
             <Reveal as="li" key={p.title} delay={0.08 * i}>
               <div className="group relative h-full overflow-hidden rounded-2xl border border-border bg-card p-8 text-left transition-all duration-500 hover:-translate-y-1 hover:border-primary/40 hover:shadow-xl sm:p-10">

@@ -9,7 +9,7 @@ const lanes = [
   { from: "Vietnam",     sea: "$350/CBM", air: "$20/KG"   },
   { from: "South Korea", sea: "$280/CBM", air: "$17/KG"   },
   { from: "Dubai",       sea: "$360/CBM", air: "$22/KG"   },
-  { from: "Turkey",      sea: "—",        air: "Inquire"  },
+  { from: "Turkey",      sea: "-",        air: "Inquire"  },
 ];
 
 export function Lanes() {
@@ -20,7 +20,7 @@ export function Lanes() {
         <Reveal>
           <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <h2 className="max-w-2xl text-4xl text-balance sm:text-5xl">
-              Nine shipping lanes into Ghana —{" "}
+              Nine shipping lanes into Ghana -{" "}
               <em className="not-italic text-primary">priced upfront.</em>
             </h2>
             <p className="max-w-sm text-muted-foreground">

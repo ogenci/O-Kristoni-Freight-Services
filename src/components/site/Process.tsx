@@ -15,7 +15,7 @@ const steps = [
   {
     icon: Ship,
     title: "We move the cargo",
-    body: "Booking, origin pickup, sea or air, B/L, and real-time milestones — all coordinated by one team.",
+    body: "Booking, origin pickup, sea or air, B/L, and real-time milestones - all coordinated by one team.",
   },
   {
     icon: PackageCheck,
